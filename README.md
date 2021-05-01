@@ -27,6 +27,7 @@
 * Execute the command below from the root directory of this project
 	* `./deploy-application.sh`
 
+
 ## Instructions for Local Deployment
 * Upon cloning the project execute the command below to start a local blockchain fork
   * `./start-local-blockchain-fork.sh`
