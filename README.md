@@ -15,7 +15,7 @@
 * Execute the command below to install node packages
 	* `npm install`
 * Execute the command below to create a `.env` file
-	* node ./create-env.js`
+	* `node ./create-env.js`
 * Execute the command below to access truffle console
 	* `truffle console --network ropsten`
 * Execute the command below from the truffle console
