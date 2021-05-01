@@ -1,5 +1,5 @@
 const fs = require('fs');
-let path = '.env';
+let path = '../.env';
 if (!fs.existsSync(path)) {
     const bip39 = require('bip39');
 
