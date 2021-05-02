@@ -16,8 +16,10 @@
 	* `npm install`
 * Execute the command below to create a `.env` file
 	* `node ./automation/create-env.js`
-* Execute the command below to access truffle console
-	* `truffle console --network ropsten`
+* Execute one of the commands below to access truffle console respectively
+	1. `truffle console --network ropsten`
+	* `truffle migrate --network testnet`
+	* `truffle migrate --network bsc`
 * Execute the command below from the truffle console
 	* `web3.eth.getAccounts()`
 * Copy the first address listed
