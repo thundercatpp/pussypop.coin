@@ -38,11 +38,11 @@
 
 ### Part 2 - Executing Test Script
 * Execute the command below to test migrating to `testnet`
-	* `truffle migrate --network testnet`
+	* `truffle migrate --network testnet --dry-run`
 * Execute the command below to test migrating to `ropsten`
-	* `truffle migrate --network ropsten`
+	* `truffle migrate --network ropsten --dry-run`
 * Execute the command below to test migrating to `bsc`
-	* `truffle migrate --network bsc`
+	* `truffle migrate --network bsc --dry-run`
 
 
 ## Instructions for Local Deployment
