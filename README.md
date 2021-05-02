@@ -27,6 +27,21 @@
 * Execute the command below from the root directory of this project
 	* `./deploy-application.sh`
 
+## Instructions for Testing Smart Contract Deployment
+
+### Part 1 - Adding Liquidity
+* Liquidity is what gives your coin the potential to be traded for currency.
+* Without Liquidity, there is no way to expend _gas_ to do computations.
+	* Ensure liqudity is added to ensure _gas_ is available.
+
+### Part 2 - Executing Test Script
+* Execute the command below to test migrating to `testnet`
+	* `truffle migrate --network testnet`
+* Execute the command below to test migrating to `ropsten`
+	* `truffle migrate --network ropsten`
+* Execute the command below to test migrating to `bsc`
+	* `truffle migrate --network bsc`
+
 
 ## Instructions for Local Deployment
 * Upon cloning the project execute the command below to start a local blockchain fork
