@@ -1,11 +1,15 @@
+require('dotenv').config()
 var Web3 = require('web3');
-const web=new Web3(new Web3.providers.HttpProvider("http://ropsten.infura.io/"));
+const web=new Web3(new Web3.providers.HttpProvider(process.env.ROPSTEN_URL));
+let accountList = null;
 let firstAccount = null;
+
 web
     .eth
     .getAccounts()
     .then(function(result){
-        firstAccount = result[0];
+        accountList = result;
+        firstAccount = accountList[0];
     });
 
 console.log(firstAccount);
