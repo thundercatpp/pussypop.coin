@@ -1,4 +1,11 @@
 #!/bin/bash
+echo "Echoing snapshot of deployment script for log files"
+currentFileName=`basename "$0"`
+echo "---------------------------------------------------"
+cat $currentFileName
+echo "---------------------------------------------------"
+
+
 echo "Cleaning up work space"
 rm -rf build
 rm -rf node_modules
